@@ -1,0 +1,73 @@
+		#Background {
+			background-image: url("https://i.imgur.com/DZydMH3.png");
+			background-size: cover;}
+
+		#Title {
+			padding-top: 90px;
+			padding-bottom: 90px;
+			display: flex;
+			justify-content: center;
+			font-size: 54px;
+			font-family: 'Oxygen', sans-serif;
+			font-weight: bold;}
+
+		#Title .fa-comments-o {
+			color: #0D22FF;}
+
+		#Email_box {
+			display: flex;
+			justify-content: center;}
+
+		#Email_box .Email {
+			font-size: 24px;
+			font-family: 'FontAwesome';
+			border-radius: 8px;
+			border-width: 3px;
+			padding-left: 10px;
+			line-height: 50px;}
+
+		#Password_box {
+			display: flex;
+			justify-content: center;}
+
+		#Password_box .Password {
+			font-size: 24px;
+			font-family: 'FontAwesome';
+			border-radius: 8px;
+			border-width: 3px;
+			padding-left: 10px;
+			line-height: 50px;}
+
+		#Sign_in {
+			display: flex;
+			justify-content: center;}
+
+		.Sign{
+			padding: 10px 10px 10px 10px;
+			font-size: 24px;
+			background-color: #0DFF22;
+			font-family: 'Oxygen', sans-serif;
+			font-weight: bold;
+			border-radius: 8px;
+			border-width: 3px;
+			border-color: #0DFF22;
+			border-style: solid;
+			margin-bottom: 15px;}
+
+		footer {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 50px;
+			background: #e9e9e9;
+			font-family: 'Oxygen', sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 80px;
+			padding-left: 5px;
+			padding-right: 5px;}
+
+			@media only screen and (max-width: 480px) {
+				#Title {
+					font-size: 48px;
+				}
+			}

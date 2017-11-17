@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="1Login.css">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+	</head>
+
+	<body id=Background>
+		<div id="Title">
+			<i class = "fa fa-comments-o"></i>Textbonds
+		</div>
+
+		<div id="Email_box">
+			  <input class="Email" type="text" placeholder="&#xf0e0; Email">
+		</div><br>
+
+		<div id="Password_box">
+			  <input class="Password" type="password" placeholder="&#xf023; *******">
+		</div><br><br>
+
+		<div id=Sign_in>
+			<button class="Sign">Sign in</button>
+		</div>
+
+		<footer>
+			<div>Forgot Password?</div>
+			<div>New User?</div>
+		</footer>
+
+		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+		<script src="firebase_config.js"></script>
+	</body>
+</html>
