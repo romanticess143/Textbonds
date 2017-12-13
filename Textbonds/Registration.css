@@ -1,0 +1,77 @@
+		#Background {
+			background-image: url("https://i.imgur.com/DZydMH3.png");
+			background-size: cover;}
+
+		#Logo {
+			padding-top: 90px;
+			padding-bottom: 90px;
+			display: flex;
+			justify-content: center;
+			font-size: 54px;
+			font-family: 'Oxygen', sans-serif;
+			font-weight: bold;}
+
+		#Logo .fa-comments-o {
+			color: #0D22FF;}
+
+		#Email_box {
+			display: flex;
+			justify-content: center;}
+
+		#Email_box #Email {
+			font-size: 24px;
+			font-family: 'FontAwesome';
+			border-radius: 8px;
+			border-width: 3px;
+			padding-left: 10px;
+			line-height: 50px;}
+
+		#Password_box {
+			display: flex;
+			justify-content: center;}
+
+		#Password_box2 {
+			display: flex;
+			justify-content: center;}
+
+		#Password_box #Password {
+			font-size: 24px;
+			font-family: 'FontAwesome';
+			border-radius: 8px;
+			border-width: 3px;
+			padding-left: 10px;
+			line-height: 50px;}
+
+		#Password_box2 #Confirm {
+			font-size: 24px;
+			font-family: 'FontAwesome';
+			border-radius: 8px;
+			border-width: 3px;
+			padding-left: 10px;
+			line-height: 50px;}
+
+		#Sign_up {
+			display: flex;
+			justify-content: center;}
+
+		#Sign:hover {
+			cursor: pointer;
+		}
+
+		#Sign{
+			padding: 10px 10px 10px 10px;
+			font-size: 24px;
+			background-color: #0DFF22;
+			font-family: 'Oxygen', sans-serif;
+			font-weight: bold;
+			border-radius: 8px;
+			border-width: 3px;
+			border-color: #0DFF22;
+			border-style: solid;
+			margin-bottom: 15px;}
+
+			@media only screen and (max-width: 480px) {
+				#Logo {
+					font-size: 48px;
+				}
+			}
